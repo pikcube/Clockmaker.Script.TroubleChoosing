@@ -23,4 +23,5 @@
 * Scarlet Woman: If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count.)
 * Baron: There are extra Outsiders in play. [+2 Outsiders]
 * Imp: Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.
+* Bootlegger: This script has homebrew characters or rules.
 * Kazopolis: On night 1, each player may choose to become any character of the same type. Some townsfolks may be selected to be Outsiders. Duplicates might be drunk. [No Outsiders]
