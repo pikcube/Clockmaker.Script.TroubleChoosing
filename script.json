@@ -1,0 +1,286 @@
+[
+  {
+    "id": "_meta",
+    "name": "Trouble Choosing",
+    "author": "Pikcube",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "poisoner",
+      "washerwoman",
+      "librarian",
+      "investigator",
+      "chef",
+      "empath",
+      "fortuneteller",
+      "butler",
+      "spy",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "poisoner",
+      "monk",
+      "scarletwoman",
+      "imp",
+      "ravenkeeper",
+      "empath",
+      "fortuneteller",
+      "undertaker",
+      "butler",
+      "spy",
+      "dawn"
+    ],
+    "bootlegger": [
+      "On night 1, each player may choose to become any character of the same type. Some townsfolks may be selected to be Outsiders. Duplicates might be drunk [No Outsiders]",
+      "Demon's Boon: The demon chooses which players are outsiders"
+    ]
+  },
+  "washerwoman",
+  "librarian",
+  "investigator",
+  "chef",
+  "empath",
+  "fortuneteller",
+  "undertaker",
+  "monk",
+  "slayer",
+  "soldier",
+  "ravenkeeper",
+  "mayor",
+  "virgin",
+  "butler",
+  "drunk",
+  "recluse",
+  "saint",
+  "poisoner",
+  "spy",
+  "scarletwoman",
+  "baron",
+  "imp",
+  {
+    "id": "kazopolis_kazopolis",
+    "edition": "",
+    "name": "Kazopolis",
+    "firstNightReminder": "Wake each player one at a time and let them pick a new character (if they wish). After all player have chosen, you may mark any player as drunk if they have a duplicate in play.",
+    "team": "loric",
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ],
+    "setup": true,
+    "ability": "On night 1, each player may choose to become any character of the same type. Some townsfolks may be selected to be Outsiders. Duplicates might be drunk. [No Outsiders]",
+    "jinxes": [
+      {
+        "id": "baron",
+        "reason": "If players select the Baron, there will be +2 outsiders. If the Baron is made drunk by Kazopolis, this doesn’t happen."
+      },
+      {
+        "id": "summoner",
+        "reason": "Players may not select the Summoner"
+      },
+      {
+        "id": "lordoftyphon",
+        "reason": "Players may not select Lord of Typhon"
+      },
+      {
+        "id": "legion",
+        "reason": "Players may not select Legion"
+      },
+      {
+        "id": "kazali",
+        "reason": "Players may not select Kazali"
+      },
+      {
+        "id": "drunk",
+        "reason": "Players may not choose to be the drunk. After characters are picked, a townsfolk may secretly become the Drunk"
+      },
+      {
+        "id": "lunatic",
+        "reason": "Players may not choose to be the lunatic. After characters are picked, a demon may secretly become the Lunatic"
+      },
+      {
+        "id": "marionette",
+        "reason": "Players may not choose to be the Marionette. After characters are picked, a good player neighboring the demon may secretly become the Marionette"
+      },
+      {
+        "id": "king",
+        "reason": "Players may not choose to be the King. After characters are picked, if any players picked Choirboy, exactly one Choirboy will become the King"
+      },
+      {
+        "id": "atheist",
+        "reason": "Players may not choose the Atheist. After characters are picked, a player may become the Atheist. If so, all players draw blue tokens"
+      },
+      {
+        "id": "balloonist",
+        "reason": "If a player chooses to become the Balloonist, another townsfolk may be made drunk. If the Balloonist is made drunk due to duplicates, this does not happen"
+      },
+      {
+        "id": "huntsman",
+        "reason": "The Huntsman can turn any outsider into an out of play townsfolk. If no outsiders are in play, they learn this"
+      },
+      {
+        "id": "poppygrower",
+        "reason": "Minions and Demons learn each other when all Poppy Growers are dead or out of play. Poppy Growers made drunk due to duplicates are not included."
+      },
+      {
+        "id": "pixie",
+        "reason": "If there are multiple copies of the the in-play Townsfolk that the Pixie learned, the Pixie gains their ability the first time any of them die. Players made drunk due to duplicates are ignored."
+      },
+      {
+        "id": "ogre",
+        "reason": "When the Ogre picks a player, the Storyteller may ask them to pick again"
+      },
+      {
+        "id": "pithag",
+        "reason": "If deaths tonight are arbitrary, then which players are drunk due to duplicates might change"
+      },
+      {
+        "id": "damsel",
+        "reason": "Minions learn how many damsels are in play, but may only guess who the Damsel is once"
+      },
+      {
+        "id": "devilsadvocate",
+        "reason": "The Devil’s Advocate cannot choose a player if a Devil’s Advocate chose them yesterday"
+      },
+      {
+        "id": "mezepheles",
+        "reason": "A player may only change alignment due to a Mezepheles once per game"
+      },
+      {
+        "id": "heretic",
+        "reason": "Kazopolis cannot drunk a Heretic."
+      },
+      {
+        "id": "mayor",
+        "reason": "Kazopolis cannot drunk the only living Mayor"
+      },
+      {
+        "id": "politician",
+        "reason": "If the Politician is made drunk due to duplicates, they learn this and lose their ability"
+      },
+      {
+        "id": "psychopath",
+        "reason": "If the Psychopath is made drunk due to duplicates, they learn this and lose their ability"
+      },
+      {
+        "id": "goblin",
+        "reason": "If the Goblin is made drunk due to duplicates, they learn this and lose their ability"
+      },
+      {
+        "id": "vortox",
+        "reason": "Townsfolks made drunk by Kazopolis are not considered Townsfolks for the purposes of the Vortox and may receive true or false information"
+      },
+      {
+        "id": "bountyhunter",
+        "reason": "If a player chooses to become the Bounty Hunter, a townsfolk will turn evil tonight. If the Bounty Hunter is made drunk due to duplicates, this does not happen"
+      },
+      {
+        "id": "chambermaid",
+        "reason": "A Chambermaid learns if another player wakes tonight or not (to their own ability), even if the Chambermaid wakes first"
+      },
+      {
+        "id": "mathematician",
+        "reason": "A Mathematician learns if another ability will malfunction tonight, even if they wakes first. An ability malfunctioning due to being Kazopolis drunk is considered to be malfunctioning due to another player’s ability"
+      },
+      {
+        "id": "alchemist",
+        "reason": "If a player chooses to become the Alchemist, the Storyteller chooses which minion ability the player gets"
+      },
+      {
+        "id": "villageidiot",
+        "reason": "If there are multiple Village Idiots in play, the Storyteller must drunk at least one of them"
+      },
+      {
+        "id": "lilmonsta",
+        "reason": "If a player chooses to become Lil’ Monsta, the Storyteller chooses which minion ability the player gets"
+      },
+      {
+        "id": "scarletwoman",
+        "reason": "If multiple Scarlet Woman are sober when the demon dies, only one demon is created"
+      },
+      {
+        "id": "hermit",
+        "reason": "If the Hermit would gain more than 4 additional outsider abilities, then the storyteller may choose which Outsider abilities the Hermit has. If so, they learn this."
+      },
+      {
+        "id": "princess",
+        "reason": "Kazopolis can only drunk the Princess if the storyteller makes every Princess drunk."
+      },
+      {
+        "id": "godfather",
+        "reason": "If players select the Godfather, there will be either -1 or +1 outsider. If the Godfather is made drunk, this does not happen."
+      },
+      {
+        "id": "xaan",
+        "reason": "If players select the Xaan, there may be any number of outsiders. If all Xaan are made drunk, this does not happen."
+      },
+      {
+        "id": "fanggu",
+        "reason": "If a player selects the Fang Gu, there will be +1 outsider."
+      },
+      {
+        "id": "vigormortis",
+        "reason": "If a player selects the Vigor Mortis, there will be -1 outsider."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "ability",
+        "name": "distribute-roles",
+        "time": "firstNight"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "time": "firstNight",
+        "value": "Which townsfolk would you like to be?",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "time": "firstNight",
+        "value": "Which outsider would you like to be?",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "time": "firstNight",
+        "value": "Which minion would you like to be?",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "time": "firstNight",
+        "value": "Which demon would you like to be?",
+        "global": "demon"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleChoosing/main/token/kazopolis_kazopolis/0.png"
+    ]
+  }
+]
